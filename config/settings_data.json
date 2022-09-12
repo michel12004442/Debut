@@ -68,11 +68,10 @@
         "type": "header",
         "settings": {
           "align_logo": "left",
-          "logo": "shopify:\/\/shop_images\/1.2-Logo_vertical.png",
           "logo_max_width": "260",
           "main_linklist": "main-menu",
-          "phone_text": "+1-800-806-0716",
-          "message": false,
+          "phone_text": "",
+          "message": true,
           "message_text": "TODAY: Worldwide shipping only $2.95 ❤",
           "banner_text": "Want 5% DISCOUNT? Use discount code FOX5. Valid for 10 minutes.",
           "message_link": "",
@@ -84,7 +83,6 @@
       "hero": {
         "type": "hero",
         "settings": {
-          "image": "shopify:\/\/shop_images\/photo-1484081064812-86e90e107fa8.jpg",
           "alignment": "center",
           "title": "Check out our new collections.",
           "text": "<p>Save up to 50% on selected items!<\/p>",
@@ -141,59 +139,6 @@
           "show_background": true
         }
       },
-      "1508981222613": {
-        "type": "collection-list",
-        "blocks": {
-          "1508981222613-0": {
-            "type": "featured_collection",
-            "settings": {
-              "collection": "gadgets"
-            }
-          },
-          "1508981222613-1": {
-            "type": "featured_collection",
-            "settings": {
-              "collection": "kids"
-            }
-          },
-          "1508981222613-2": {
-            "type": "featured_collection",
-            "settings": {
-              "collection": "christmas-gifts-decorations"
-            }
-          },
-          "1509358030931": {
-            "type": "featured_collection",
-            "settings": {
-              "collection": "cooking-baking"
-            }
-          },
-          "1509358056791": {
-            "type": "featured_collection",
-            "settings": {
-              "collection": "home-living"
-            }
-          },
-          "1509358043836": {
-            "type": "featured_collection",
-            "settings": {
-              "collection": "beauty"
-            }
-          }
-        },
-        "block_order": [
-          "1508981222613-0",
-          "1508981222613-1",
-          "1508981222613-2",
-          "1509358030931",
-          "1509358056791",
-          "1509358043836"
-        ],
-        "settings": {
-          "title": "Trending collections",
-          "grid": "3"
-        }
-      },
       "1509357672432": {
         "type": "collection",
         "settings": {
@@ -229,7 +174,6 @@
     },
     "content_for_index": [
       "hero",
-      "1508981222613",
       "1509357808487",
       "1509357672432",
       "1495554487076"
@@ -262,7 +206,8 @@
       "sections": {
         "header": {
           "type": "header",
-          "settings": {}
+          "settings": {
+          }
         },
         "hero": {
           "type": "hero",
@@ -275,18 +220,21 @@
           "blocks": {
             "slideshow-0": {
               "type": "image",
-              "settings": {}
+              "settings": {
+              }
             },
             "slideshow-1": {
               "type": "image",
-              "settings": {}
+              "settings": {
+              }
             }
           },
           "block_order": [
             "slideshow-0",
             "slideshow-1"
           ],
-          "settings": {}
+          "settings": {
+          }
         },
         "featured-collections": {
           "type": "collection",
@@ -296,7 +244,8 @@
         },
         "feature-row": {
           "type": "feature-row",
-          "settings": {}
+          "settings": {
+          }
         },
         "footer": {
           "type": "footer",
